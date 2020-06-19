@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Tour from '../Tour';
 import './tourlist.scss';
-import TourData, { tourData } from '../../tourData';
+import { tourData } from '../../tourData';
 
 export default class TourList extends Component {
     state = {
